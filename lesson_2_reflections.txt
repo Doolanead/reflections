@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+  An .git directory is created where all the metadata, that keeps track
+  of the evolution of the repository, it's saved
