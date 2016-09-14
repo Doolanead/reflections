@@ -7,3 +7,27 @@ How is the staging area different from the working directory and the repository?
  Only the staging area's file are going to be commited to the repository.
  It allow you not no commit all the files that you are working with, so you can
  use temporally files or notes that you don't want to have in the repository.
+
+Testing the diff working directory staging
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+  git diff --staged
+  I can compare what i have in the repository and the staging area
+  git diff
+  I can see what i have in the staging area and what I'm working on
+
+What are some situations when branches would be helpful in keeping your history
+ organized? How would branches help?
+ They make easier to start version and change between them
+
+ What is the result of merging two branches together?
+ Why do we represent it in the diagram the way we do?
+    It's a new version of the software with the features of the two 'components'
+    Because the merge creates a new issues with two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+  Git help to find the parts of code that are equal and gives security when it
+  comes to do those type of changes. On the other hand i think it can ignore
+  lines of code that are useless which it's no desirable 
