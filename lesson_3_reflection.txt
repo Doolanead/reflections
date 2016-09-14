@@ -25,3 +25,11 @@ and what would be harder?
   I would merge the different version and features of a project manually, and i
   would use asana or other platform to agree the changes with my coworkers.
   I think everything would be harder.
+
+When would you want to make changes in a separate branch rather than directly
+ in master? What benefits does each approach have?
+    Make a branch is great for big changes in code or in functionality so you
+    don't have to worry about your next states is going to work or not. In the
+    case that it work you can merge branches of different people that have been
+    working in different parts of the software. In some way allows parallel work,
+    in programming which is pretty cool.
